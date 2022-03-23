@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu111"
+verify_ssl = false
+
+[packages]
+numpy = "*"
+pandas = "*"
+scikit-image = "*"
+pillow = "*"
+matplotlib = "*"
+perlin-numpy = {git = "https://github.com/pvigier/perlin-numpy.git"}
+torch = {version = "==1.9.0+cu111", index = "pytorch"}
+torchvision = {version = "==0.10.0+cu111", index="pytorch"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
