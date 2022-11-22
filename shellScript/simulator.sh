@@ -14,7 +14,7 @@ mkdir -p ${segMaskDir}
 mkdir -p "/Medical_Image_Analysis/simDataInfo/paraInfo/"
 mkdir -p "/Medical_Image_Analysis/simDataInfo/bboxInfo/"
 
-# you can change the following values as you like
+# Just as an example. You can change the following values as you like
 res=2
 persistence='0.8'
 lacunarity=4
