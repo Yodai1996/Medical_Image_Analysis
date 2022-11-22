@@ -1,4 +1,4 @@
-# Medical_Image_Analysis
+# sim2real transfer for rare pneumonia lesions detection
 
 We have worked on applying a sim2real transfer appraoch for the detection of rare pneumonia lesions in chest X-rays. 
 
