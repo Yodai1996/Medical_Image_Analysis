@@ -2,8 +2,12 @@
 
 We have worked on applying a sim2real transfer appraoch for the detection of rare pneumonia lesions in chest X-rays. 
 
-In order to run the codes, you have to 
+In order to general abnormal images with the proposed simulator, you'll need to
 
-・move the csv files in `annotation_info` to the parent directory,
+  1. download normal lung images from [the RSNA dataset](https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge/data)
 
-・prepare BO module
+  2. specify the directory in the variable `normalDir` at `shellScript/simulator.sh`
+
+  3. run the shell script
+  
+The generated abnormal images, their segmentation masks, and bounding boxes will be saved at `data/sim`, `SegmentationMask/mask1000`, and `simDataInfo/bboxInfo/bboxInfo1000.csv`, respectively. 
