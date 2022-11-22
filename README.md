@@ -6,7 +6,7 @@ In order to general abnormal images with the proposed simulator, you'll need to
 
   1. download normal lung images from [the RSNA dataset](https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge/data)
 
-  2. specify the directory in the variable `normalDir` at `shellScript/simulator.sh`
+  2. specify the directory path in the variable `normalDir` at `shellScript/simulator.sh`
 
   3. run the shell script
   
