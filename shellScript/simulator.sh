@@ -21,4 +21,4 @@ lacunarity=4
 scale='0.5'
 smoothArea='0.4'
 
-pipenv run python ../WisteriaCodes/fractalGenerator.py ${normalIdList} ${normalDir} ${abnormalDir} ${segMaskDir} ${saveParaPath} ${saveBboxPath} ${res} ${persistence} ${lacunarity} ${scale} ${smoothArea}
+pipenv run python ../code/fractalGenerator.py ${normalIdList} ${normalDir} ${abnormalDir} ${segMaskDir} ${saveParaPath} ${saveBboxPath} ${res} ${persistence} ${lacunarity} ${scale} ${smoothArea}
